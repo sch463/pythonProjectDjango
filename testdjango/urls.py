@@ -18,4 +18,5 @@ from django.urls import path
 from.import vieus
 urlpatterns = {
     path('', vieus.home),
+    path('reverse/', vieus.reverse),
 }
